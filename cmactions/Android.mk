@@ -41,5 +41,6 @@ endif
 include frameworks/base/packages/SettingsLib/common.mk
 
 include $(BUILD_PACKAGE)
+endif
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
